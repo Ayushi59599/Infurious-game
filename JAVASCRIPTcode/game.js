@@ -1,8 +1,8 @@
 //Game
 // Importing necessary classes for the game
-import { Bird } from './bird.js';
-import { Pipe } from './pipe.js';
-import { Weapon } from './weapon.js';
+import { Bird } from 'bird.js';
+import { Pipe } from 'pipe.js';
+import { Weapon } from 'weapon.js';
 
 // Game class definition
 export class Game {
@@ -10,8 +10,8 @@ export class Game {
         // Initializing game variables
         this.pipeHorizontalSpeed = 4;
         this.bird = new Bird();
-        this.pointSound = new Audio('../sound/coin-recieved.mp3'); // Sound for collecting points
-        this.dieSound = new Audio('../sound/die.mp3'); // Sound for game over
+        this.pointSound = new Audio('sound/coin-recieved.mp3'); // Sound for collecting points
+        this.dieSound = new Audio('sound/die.mp3'); // Sound for game over
         this.scoreDisplay = document.querySelector('.score_val');
         this.messageDisplay = document.querySelector('.message');
         this.scoreTitle = document.querySelector('.score_title');
