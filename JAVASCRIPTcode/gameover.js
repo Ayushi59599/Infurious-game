@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (countdown <= 0) {
             clearInterval(countdownInterval);
             // Redirect to leaderboard after countdown
-            window.location.href = "../HTMLcode/leaderboard.html";
+            window.location.href = "HTMLcode/leaderboard.html";
         }
     }, 1000);
 
