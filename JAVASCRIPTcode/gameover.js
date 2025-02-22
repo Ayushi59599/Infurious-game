@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Enter key to start again
     document.addEventListener('keydown', (event) => {
         if (event.key === 'Enter') {
-            window.location.href = "../HTMLcode/game.html"; // Redirect to game page
+            window.location.href = "HTMLcode/game.html"; // Redirect to game page
         }
     });
 });
