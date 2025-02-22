@@ -112,7 +112,7 @@ footer {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url('Images/black.jpg') no-repeat center center;
+  background: url('/Images/black.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   overflow: visible;
@@ -265,7 +265,7 @@ footer {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: url('Images/bird.jpg') no-repeat center center;
+  background: url('/Images/bird.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -369,7 +369,7 @@ footer {
 
 body.leaderboard-body {
   height: 100vh;
-  background: url('Images/bg.avif') no-repeat center center;
+  background: url('/Images/bg.avif') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   overflow: visible;
@@ -468,7 +468,7 @@ body.leaderboard-body {
 .background {
   height: 100vh;
   width: 100vw;
-  background: url('Images/gamebg.jpg') no-repeat center center fixed;
+  background: url('/Images/gamebg.jpg') no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -512,7 +512,7 @@ body.leaderboard-body {
 .weapon {
   width: 5vw;
   height: 5vw;
-  background-image: url('Images/bomb.png');
+  background-image: url('/Images/bomb.png');
   background-size: cover;
   position: absolute;
   z-index: 2;
@@ -555,7 +555,7 @@ body.leaderboard-body {
   padding: 50px;
   position: relative;
   z-index: 1;
-  background: url('Images/gameoverbg.jpg') no-repeat center center;
+  background: url('/Images/gameoverbg.jpg') no-repeat center center;
   background-size: cover;
   text-align: center;
 }
